@@ -11,7 +11,7 @@ class Manufacturer extends Model
 
     protected $fillable = ['name', 'address', 'phone'];
 
-    public function car() 
+    public function cars() 
     {
         return $this->hasMany(Car::class);
     }
