@@ -14,7 +14,8 @@
             </div>
           </div>
 
-  
+        <br>
+
         <div class="form-group row">
           <label for="year" class="col-md-3 col-form-label">Year</label>
           <div class="col-md-9">
@@ -26,7 +27,9 @@
             @enderror
           </div>
         </div>
-  
+
+        <br>
+
         <div class="form-group row">
           <label for="salesperson_email" class="col-md-3 col-form-label">SalesPerson Email</label>
           <div class="col-md-9">
@@ -39,7 +42,8 @@
           </div>
         </div>
   
-  
+        <br>
+
         <div class="form-group row">
           <label for="manufacturer_id" class="col-md-3 col-form-label">Manufacturer Name</label>
           <div class="col-md-9">
@@ -55,6 +59,7 @@
           @enderror
           </div>
         </div>
+        <br>
         <hr>
         <div class="form-group row mb-0">
           <div class="col-md-9 offset-md-3">

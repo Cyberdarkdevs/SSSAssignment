@@ -20,9 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/manufacturerviews', [ManufacturerController::class, 'index'])->name('manufacturerviews.index');
-
 Route::get('/carviews', [CarController::class, 'index'])->name('carviews.index');
-
 Route::get('/carviews.createcars', [CarController::class, 'create'])->name('carviews.createcars');
-
+Route::get('/cars/{id}', [CarController::class, 'view'])->name('carviews.view');
 Route::post('/cars', [CarController::class, 'save'])->name('cars.save');
